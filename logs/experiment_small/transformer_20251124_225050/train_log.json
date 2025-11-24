@@ -1,0 +1,242 @@
+[
+    {
+        "epoch": 1,
+        "nmax": 3,
+        "train_loss": 0.5508940766503414,
+        "train_acc": 0.8266666666666667,
+        "val_acc": 0.875,
+        "temperature": null
+    },
+    {
+        "epoch": 2,
+        "nmax": 4,
+        "train_loss": 0.6772089938322703,
+        "train_acc": 0.6966666666666667,
+        "val_acc": 0.745,
+        "temperature": null
+    },
+    {
+        "epoch": 3,
+        "nmax": 5,
+        "train_loss": 0.71182454859217,
+        "train_acc": 0.5866666666666667,
+        "val_acc": 0.695,
+        "temperature": null
+    },
+    {
+        "epoch": 4,
+        "nmax": 6,
+        "train_loss": 0.7757207848131656,
+        "train_acc": 0.4666666666666667,
+        "val_acc": 0.455,
+        "temperature": null
+    },
+    {
+        "epoch": 5,
+        "nmax": 7,
+        "train_loss": 0.8020463908712069,
+        "train_acc": 0.39666666666666667,
+        "val_acc": 0.43,
+        "temperature": null
+    },
+    {
+        "epoch": 6,
+        "nmax": 8,
+        "train_loss": 0.8359688343604406,
+        "train_acc": 0.36666666666666664,
+        "val_acc": 0.39,
+        "temperature": null
+    },
+    {
+        "epoch": 7,
+        "nmax": 9,
+        "train_loss": 0.8231541999181111,
+        "train_acc": 0.3,
+        "val_acc": 0.38,
+        "temperature": null
+    },
+    {
+        "epoch": 8,
+        "nmax": 10,
+        "train_loss": 0.8094994421799978,
+        "train_acc": 0.3233333333333333,
+        "val_acc": 0.275,
+        "temperature": null
+    },
+    {
+        "epoch": 9,
+        "nmax": 10,
+        "train_loss": 0.7993143553535144,
+        "train_acc": 0.35333333333333333,
+        "val_acc": 0.32,
+        "temperature": null
+    },
+    {
+        "epoch": 10,
+        "nmax": 10,
+        "train_loss": 0.8069955313205719,
+        "train_acc": 0.29333333333333333,
+        "val_acc": 0.32,
+        "temperature": null
+    },
+    {
+        "epoch": 11,
+        "nmax": 10,
+        "train_loss": 0.8270271239678065,
+        "train_acc": 0.27,
+        "val_acc": 0.285,
+        "temperature": null
+    },
+    {
+        "epoch": 12,
+        "nmax": 10,
+        "train_loss": 0.8058118669191996,
+        "train_acc": 0.29,
+        "val_acc": 0.335,
+        "temperature": null
+    },
+    {
+        "epoch": 13,
+        "nmax": 10,
+        "train_loss": 0.803190471927325,
+        "train_acc": 0.27666666666666667,
+        "val_acc": 0.245,
+        "temperature": null
+    },
+    {
+        "epoch": 14,
+        "nmax": 10,
+        "train_loss": 0.8005958100159963,
+        "train_acc": 0.32,
+        "val_acc": 0.34,
+        "temperature": null
+    },
+    {
+        "epoch": 15,
+        "nmax": 10,
+        "train_loss": 0.8096081039309502,
+        "train_acc": 0.28,
+        "val_acc": 0.265,
+        "temperature": null
+    },
+    {
+        "epoch": 16,
+        "nmax": 10,
+        "train_loss": 0.8110535761713982,
+        "train_acc": 0.27666666666666667,
+        "val_acc": 0.27,
+        "temperature": null
+    },
+    {
+        "epoch": 17,
+        "nmax": 10,
+        "train_loss": 0.8085627343257268,
+        "train_acc": 0.2733333333333333,
+        "val_acc": 0.375,
+        "temperature": null
+    },
+    {
+        "epoch": 18,
+        "nmax": 10,
+        "train_loss": 0.8069998097419738,
+        "train_acc": 0.29333333333333333,
+        "val_acc": 0.315,
+        "temperature": null
+    },
+    {
+        "epoch": 19,
+        "nmax": 10,
+        "train_loss": 0.7970248748858769,
+        "train_acc": 0.30333333333333334,
+        "val_acc": 0.285,
+        "temperature": null
+    },
+    {
+        "epoch": 20,
+        "nmax": 10,
+        "train_loss": 0.7901542691389719,
+        "train_acc": 0.31,
+        "val_acc": 0.365,
+        "temperature": null
+    },
+    {
+        "epoch": 21,
+        "nmax": 10,
+        "train_loss": 0.8035291547576586,
+        "train_acc": 0.28,
+        "val_acc": 0.405,
+        "temperature": null
+    },
+    {
+        "epoch": 22,
+        "nmax": 10,
+        "train_loss": 0.8172404137253761,
+        "train_acc": 0.30333333333333334,
+        "val_acc": 0.275,
+        "temperature": null
+    },
+    {
+        "epoch": 23,
+        "nmax": 10,
+        "train_loss": 0.8042896981040637,
+        "train_acc": 0.31666666666666665,
+        "val_acc": 0.34,
+        "temperature": null
+    },
+    {
+        "epoch": 24,
+        "nmax": 10,
+        "train_loss": 0.8109182299176851,
+        "train_acc": 0.2966666666666667,
+        "val_acc": 0.31,
+        "temperature": null
+    },
+    {
+        "epoch": 25,
+        "nmax": 10,
+        "train_loss": 0.7892306638757388,
+        "train_acc": 0.37,
+        "val_acc": 0.35,
+        "temperature": null
+    },
+    {
+        "epoch": 26,
+        "nmax": 10,
+        "train_loss": 0.8031864613294601,
+        "train_acc": 0.30666666666666664,
+        "val_acc": 0.31,
+        "temperature": null
+    },
+    {
+        "epoch": 27,
+        "nmax": 10,
+        "train_loss": 0.7893858749667804,
+        "train_acc": 0.3433333333333333,
+        "val_acc": 0.255,
+        "temperature": null
+    },
+    {
+        "epoch": 28,
+        "nmax": 10,
+        "train_loss": 0.7875905846556027,
+        "train_acc": 0.37,
+        "val_acc": 0.335,
+        "temperature": null
+    },
+    {
+        "epoch": 29,
+        "nmax": 10,
+        "train_loss": 0.7933764271934827,
+        "train_acc": 0.35,
+        "val_acc": 0.315,
+        "temperature": null
+    },
+    {
+        "epoch": 30,
+        "nmax": 10,
+        "train_loss": 0.8039172331492106,
+        "train_acc": 0.2833333333333333,
+        "val_acc": 0.29,
+        "temperature": null
+    }
+]
