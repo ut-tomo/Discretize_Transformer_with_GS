@@ -1,0 +1,18 @@
+{
+    "model_type": "transformer",
+    "d_model": 128,
+    "n_heads": 4,
+    "n_layers": 2,
+    "d_ff": 512,
+    "dropout": 0.1,
+    "temp_initial": 5.0,
+    "temp_final": 0.1,
+    "nchar": 3,
+    "nmin": 1,
+    "nmax": 20,
+    "nepoch": 100,
+    "nseq": 1000,
+    "lr": 0.001,
+    "seed": 42,
+    "log_dir": "transformer_logs/exp1125"
+}

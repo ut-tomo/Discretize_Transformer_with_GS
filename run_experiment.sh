@@ -8,13 +8,13 @@ echo "Date: $(date)"
 echo ""
 
 # 実験設定
-NEPOCH=50
-NSEQ=500
-NMAX=10
-D_MODEL=64
-N_HEADS=2
+NEPOCH=100
+NSEQ=1000
+NMAX=20
+D_MODEL=128
+N_HEADS=4
 N_LAYERS=2
-D_FF=256
+D_FF=512
 SEED=42
 
 # ログディレクトリの設定
@@ -48,9 +48,9 @@ if [ -n "$TRANSFORMER_LOG" ]; then
         --model_type transformer \
         --checkpoint "${TRANSFORMER_LOG}/best_model.pt" \
         --config "${TRANSFORMER_LOG}/config.json" \
-        --nmin 2 \
+        --nmin 1 \
         --nmax 50 \
-        --ntest 100 \
+        --ntest 200 \
         --seed 10 \
         --output "${TRANSFORMER_LOG}/generalization_results.json"
 fi
@@ -86,9 +86,9 @@ if [ -n "$DISCRETIZED_LOG" ]; then
         --model_type discretized \
         --checkpoint "${DISCRETIZED_LOG}/best_model.pt" \
         --config "${DISCRETIZED_LOG}/config.json" \
-        --nmin 2 \
+        --nmin 1 \
         --nmax 50 \
-        --ntest 100 \
+        --ntest 200 \
         --seed 10 \
         --output "${DISCRETIZED_LOG}/generalization_results.json"
 fi

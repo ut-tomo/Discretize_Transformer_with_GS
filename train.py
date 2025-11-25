@@ -135,9 +135,10 @@ def train(args, seed, log_dir):
         nmax = max(min(epoch + 3, args.nmax), 3)  # 学習長は3以上で徐々に増やすスケジューリング
         
         # 温度スケジューリング（discretizedモデルの場合）
+        temperature = None  # 全モデルタイプで初期化
         if args.model_type == 'discretized' and hasattr(model, 'set_temperature'):
             # 温度を線形に下げる: temp_initial -> temp_final
-            temperature = args.temp_initial - (args.temp_initial - args.temp_final) * (epoch / (args.nepoch - 1))
+            temperature = args.temp_initial - (args.temp_initial - args.temp_final) * (epoch / max(args.nepoch - 1, 1))
             model.set_temperature(temperature)
             print(f"Epoch {epoch + 1}: temperature={temperature:.4f}")
 
@@ -153,7 +154,7 @@ def train(args, seed, log_dir):
             'train_loss': train_loss,
             'train_acc': train_acc,
             'val_acc': val_acc,
-            'temperature': temperature if args.model_type == 'discretized' else None
+            'temperature': temperature
         })
         
         if val_acc > best_val_acc:
