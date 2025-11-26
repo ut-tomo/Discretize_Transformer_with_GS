@@ -1,0 +1,18 @@
+{
+    "model_type": "discretized",
+    "d_model": 256,
+    "n_heads": 8,
+    "n_layers": 3,
+    "d_ff": 1024,
+    "dropout": 0.1,
+    "temp_initial": 3.0,
+    "temp_final": 0.5,
+    "nchar": 3,
+    "nmin": 1,
+    "nmax": 20,
+    "nepoch": 150,
+    "nseq": 1000,
+    "lr": 0.0005,
+    "seed": 42,
+    "log_dir": "discretized_logs/exp1126"
+}
